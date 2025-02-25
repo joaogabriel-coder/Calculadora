@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULADORA</h1>
+    <div class="calc">
+        <input type="text" name="res" id="res">
+        <div class="botoes">
+            <button onclick="limpar()">C</button>
+            <button onclick="voltar()"><</button>
+            <button onclick="mostrar('/')">/</button>
+            <button onclick="mostrar('*')">*</button>
+            <button onclick="mostrar('7')">7</button>
+            <button onclick="mostrar('8')">8</button>
+            <button onclick="mostrar('9')">9</button>
+            <button onclick="mostrar('-')">-</button>
+            <button onclick="mostrar('4')">4</button>
+            <button onclick="mostrar('5')">5</button>
+            <button onclick="mostrar('6')">6</button>
+            <button onclick="mostrar('+')">+</button>
+            <button onclick="mostrar('1')">1</button>
+            <button onclick="mostrar('2')">2</button>
+            <button onclick="mostrar('3')">3</button>
+            <button class="igual" onclick="calc()">=</button>
+            <button class="zero" onclick="mostrar('0')">0</button>
+            <button onclick="mostrar('.')">.</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
